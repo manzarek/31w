@@ -1,6 +1,7 @@
 # Exercice #1
 ## Installation de Wordpress et création de thème
 ### Auteur: Carl Matteau-Pelletier
+### Serveur distant: https://aecweb17.sg-host.com/
 #### Objectifs
 - Installer WP
 - Créer un thème simple

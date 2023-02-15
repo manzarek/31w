@@ -1,0 +1,22 @@
+
+.menu-entete-container {
+
+
+.menu { //ul
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-left: auto;
+
+
+.menu-item {
+    flex: 1 0 70px;
+}
+
+a {
+    padding: 3px 5px;
+    color: #555;
+}
+}
+}

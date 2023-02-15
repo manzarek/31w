@@ -384,15 +384,17 @@ p {
 }
 
 /* COMPOSANT */
-.menu-entete-container {
-  background-color: beige;
-}
-
-.menu {
+.menu-entete-container .menu {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   list-style-type: none;
+  margin-left: auto;
 }
-
-.menu-item {
-  margin: 10px;
+.menu-entete-container .menu .menu-item {
+  flex: 1 0 70px;
+}
+.menu-entete-container .menu a {
+  padding: 3px 5px;
+  color: #555;
 }/*# sourceMappingURL=style.css.map */
