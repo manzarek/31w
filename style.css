@@ -381,4 +381,18 @@ h6 {
 
 p {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+/* COMPOSANT */
+.menu-entete-container {
+  background-color: beige;
+}
+
+.menu {
+  display: flex;
+  list-style-type: none;
+}
+
+.menu-item {
+  margin: 10px;
 }/*# sourceMappingURL=style.css.map */
