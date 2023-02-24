@@ -1,35 +1,49 @@
 
 .site__entete {
 
+    $font-stack: Helvetica, sans-serif;
+    $primary-color: black;
+
+    a {
+        font-family: $font-stack;
+        color: $primary-color;
+        text-align: center;
+    }
+
+    h1,h2,h3,h4,h5 {
+        font-family: $font-stack;
+        color: $primary-color;
+        text-align: center;
+    }
+
+    .logomenu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .menu-entete-container {
+        flex : 1;
+
+        .menu { //ul
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            list-style-type: none;
+            margin-left: auto;
+
+
+            .menu-item {
+                flex: 1 0 70px;
+
+
+                a {
+                    padding: 3px 5px;
+                    color: #555;
+                }
+
+            }
+        }
+    }
 }
-
-.logomenu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.menu-entete-container {
-flex : 1;
-
-.menu { //ul
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    list-style-type: none;
-    margin-left: auto;
-
-
-.menu-item {
-    flex: 1 0 70px;
-
-
-a {
-    padding: 3px 5px;
-    color: #555;
-}
-}
-}
-}
-

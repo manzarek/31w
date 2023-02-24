@@ -1,3 +1,7 @@
+$font-stack: Helvetica, sans-serif;
+$primary-background-color: rgb(234,232,208);
+$primary-color: rgb(255,55,37);
+
 .blocflex{
     display : flex;
     justify-content: space-between;
@@ -7,5 +11,11 @@
         padding : 5px;
         border : 1px solid #aaa;
         flex: 1 0 300px;
+        font-family: $font-stack;
+        background-color: $primary-background-color;
+    }
+
+    a {
+        color: $primary-color;
     }
 }

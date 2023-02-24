@@ -384,26 +384,35 @@ p {
 }
 
 /* COMPOSANT */
-.logomenu {
+.site__entete a {
+  font-family: Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+.site__entete h1, .site__entete h2, .site__entete h3, .site__entete h4, .site__entete h5 {
+  font-family: Helvetica, sans-serif;
+  color: black;
+  text-align: center;
+}
+.site__entete .logomenu {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.menu-entete-container {
+.site__entete .menu-entete-container {
   flex: 1;
 }
-.menu-entete-container .menu {
+.site__entete .menu-entete-container .menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   list-style-type: none;
   margin-left: auto;
 }
-.menu-entete-container .menu .menu-item {
+.site__entete .menu-entete-container .menu .menu-item {
   flex: 1 0 70px;
 }
-.menu-entete-container .menu .menu-item a {
+.site__entete .menu-entete-container .menu .menu-item a {
   padding: 3px 5px;
   color: #555;
 }
@@ -418,4 +427,9 @@ p {
   padding: 5px;
   border: 1px solid #aaa;
   flex: 1 0 300px;
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(234, 232, 208);
+}
+.blocflex a {
+  color: rgb(255, 55, 37);
 }/*# sourceMappingURL=style.css.map */
