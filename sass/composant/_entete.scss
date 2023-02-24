@@ -1,17 +1,21 @@
 
+// Pour les éléments de recherche
+.recherche__input, .recherche__bouton {
+    height: 50px;
+}
+
+// Pour l'en-tête en général
 .site__entete {
 
-    $font-stack: Helvetica, sans-serif;
-    $primary-color: black;
+    $primary-color: rgb(26,26,26);
+
 
     a {
-        font-family: $font-stack;
         color: $primary-color;
         text-align: center;
     }
 
     h1,h2,h3,h4,h5 {
-        font-family: $font-stack;
         color: $primary-color;
         text-align: center;
     }
@@ -20,6 +24,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        background-color: #213343;
     }
 
 
@@ -40,7 +45,7 @@
 
                 a {
                     padding: 3px 5px;
-                    color: #555;
+                    color: white;
                 }
 
             }

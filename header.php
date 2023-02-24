@@ -11,10 +11,10 @@
     <header class="site__entete">  
         <section class="logomenu">
             <?php the_custom_logo(); ?> 
-            <?php wp_nav_menu(array(
+            <h4><?php wp_nav_menu(array(
                 'menu' => 'entete',
                 'container' => 'nav'
-            )); ?> 
+            )); ?> </h4>
             <?= get_search_form(); ?>    
         </section>
         <h2><a href="<?php  bloginfo('url'); ?>"><?php  bloginfo('name'); ?></a></h2> 

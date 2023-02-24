@@ -365,39 +365,42 @@ P {
 }
 
 h1 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Helvetica, Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 h2 {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Helvetica, Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 h3,
 h4,
 h5,
 h6 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: Helvetica, "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 p {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: Helvetica, "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
 /* COMPOSANT */
+.recherche__input, .recherche__bouton {
+  height: 50px;
+}
+
 .site__entete a {
-  font-family: Helvetica, sans-serif;
-  color: black;
+  color: rgb(26, 26, 26);
   text-align: center;
 }
 .site__entete h1, .site__entete h2, .site__entete h3, .site__entete h4, .site__entete h5 {
-  font-family: Helvetica, sans-serif;
-  color: black;
+  color: rgb(26, 26, 26);
   text-align: center;
 }
 .site__entete .logomenu {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #213343;
 }
 .site__entete .menu-entete-container {
   flex: 1;
@@ -414,7 +417,7 @@ p {
 }
 .site__entete .menu-entete-container .menu .menu-item a {
   padding: 3px 5px;
-  color: #555;
+  color: white;
 }
 
 .blocflex {
