@@ -8,17 +8,15 @@
     <?php wp_head(); ?>
 </head>
 <body>
-    <header class="site__entete">
+    <header class="site__entete">  
         <section class="logomenu">
-            <?php the_custom_logo(); ?>
+            <?php the_custom_logo(); ?> 
             <?php wp_nav_menu(array(
                 'menu' => 'entete',
                 'container' => 'nav'
-            )); ?>
-            <?= get_search_form(); ?>
+            )); ?> 
+            <?= get_search_form(); ?>    
         </section>
-        <h1><a href="<?php bloginfo('url');?>"><?php bloginfo('name'); ?></a></h1>
-        <h2><?php bloginfo('description'); ?></h2>
+        <h1><a href="<?php  bloginfo('url'); ?>"><?php  bloginfo('name'); ?></a></h1> 
+        <h2><?php  bloginfo('description'); ?></h2>
     </header>
-</body>
-</html>
