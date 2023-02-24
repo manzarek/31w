@@ -1,11 +1,11 @@
 <?php
 /*
-    Modèle index.php représente le modèle par défaut du thème
+    Modèle single.php
 */
 
 get_header(); ?>
 <main>
-    <h3>index.php</h3>
+    <h3>single.php</h3>
 
 <?php
 if (have_posts()):
