@@ -1,6 +1,9 @@
+
+// Variables SCSS
 $font-stack: Helvetica, sans-serif;
 $primary-background-color: rgb(234,232,208);
 $primary-color: rgb(255,55,37);
+
 
 .blocflex{
     display : flex;
@@ -14,7 +17,8 @@ $primary-color: rgb(255,55,37);
         font-family: $font-stack;
         background-color: $primary-background-color;
     }
-
+    
+    // Pour les liens des blocflex
     a {
         color: $primary-color;
     }
