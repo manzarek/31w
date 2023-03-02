@@ -17,12 +17,11 @@
                     'container' => 'nav'
                 )); ?> 
                 <?= get_search_form(); ?>   
-            </div>     
+            </div> 
         </section>
-        <h2><a href="<?php  bloginfo('url'); ?>"><?php  bloginfo('name'); ?></a></h2> 
-        <h3><?php  bloginfo('description'); ?></h3>
+        <h1><a href="<?php  bloginfo('url'); ?>"><?php  bloginfo('name'); ?></a></h1> 
+        <h2><?php  bloginfo('description'); ?></h2>
     </header>
-
     <aside class="site__aside">
         <h3>Menu secondaire</h3>
         <?php 

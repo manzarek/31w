@@ -427,7 +427,11 @@ p {
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.blocflex article {
+.blocflex a {
+  color: rgb(255, 55, 37);
+}
+
+.blocflex__article {
   margin: 10px;
   padding: 5px;
   border: 1px solid #aaa;
@@ -435,8 +439,9 @@ p {
   font-family: Helvetica, sans-serif;
   background-color: rgb(234, 232, 208);
 }
-.blocflex a {
-  color: rgb(255, 55, 37);
+
+.blocflex__galerie {
+  flex: 1 0 100%;
 }
 
 /* LAYOUT */
