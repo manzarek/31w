@@ -27,7 +27,13 @@
         background-color: #213343;
     }
 
-
+    .menusearch {
+        display : flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-wrap : wrap;
+    }
+    
     .menu-entete-container {
         flex : 1;
 

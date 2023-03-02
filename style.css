@@ -402,6 +402,12 @@ p {
   align-items: center;
   background-color: #213343;
 }
+.site__entete .menusearch {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
 .site__entete .menu-entete-container {
   flex: 1;
 }
@@ -435,4 +441,37 @@ p {
 }
 .blocflex a {
   color: rgb(255, 55, 37);
+}
+
+/* LAYOUT */
+/**
+Mise en page avec display: grid
+*/
+.site__entete {
+  grid-area: header;
+  padding: 1rem clamp(1rem, 3vw, 20rem);
+  background-color: antiquewhite;
+}
+
+.site__main {
+  grid-area: main;
+  overflow: hidden; /* Resolves issue with <pre> elements forcing full width. */
+}
+
+.site__footer {
+  grid-area: footer;
+  background-color: antiquewhite;
+}
+
+.site__aside {
+  grid-area: aside;
+  background-color: rgb(47, 148, 210);
+}
+
+/* body ou un conteneur globale */
+.site {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-areas: "header" "main" "footer";
+  row-gap: 50px;
 }/*# sourceMappingURL=style.css.map */
