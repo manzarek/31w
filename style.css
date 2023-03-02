@@ -408,15 +408,11 @@ p {
   align-items: center;
   flex-wrap: wrap;
 }
-.site__entete .menu-entete-container {
-  flex: 1;
-}
 .site__entete .menu-entete-container .menu {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   list-style-type: none;
-  margin-left: auto;
 }
 .site__entete .menu-entete-container .menu .menu-item {
   flex: 1 0 70px;
